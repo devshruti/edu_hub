@@ -1,0 +1,32 @@
+
+.home-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3eeff; 
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+/* Add animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.content {
+    animation: fadeIn 1s ease-in-out; /* Apply animation */
+}
